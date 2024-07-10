@@ -21,21 +21,7 @@ const atividade = {
 }
 
 // lista, array, vetor []
-let atividades = [
-  atividade,
-  {
-    nome: 'Academia em grupo',
-    data: new Date("2024-07-09 12:00"),
-    finalizada: false
-  },
-  {
-    nome: 'Gamming session',
-    data: new Date("2024-07-09 16:00"),
-    finalizada: true
-  },
-]
-
-// atividades = []
+let atividades = []
 
 // arrow function
 const criarItemDeAtividade = (atividade) => {
