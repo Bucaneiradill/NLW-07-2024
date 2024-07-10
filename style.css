@@ -171,7 +171,7 @@
   }
 
   section .card-bg {
-    animation: appear 1s;
+    animation: appear 300ms;
   }
 
   @keyframes appear {
